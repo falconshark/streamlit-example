@@ -11,5 +11,5 @@ results = model(img)  # class 'ultralytics.engine.results.Results のリスト�
 annotated_image = results[0].plot()
 
 cv2.imshow('annotated image', annotated_image)
-cv2.waitKey(0)  
+cv2.waitKey(0)
 cv2.destroyAllWindows()  # qで終了

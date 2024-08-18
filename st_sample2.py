@@ -8,7 +8,7 @@ st.write('名前:', name)
 # check box
 agree = st.checkbox('画像を表示しますか？')
 if agree:
-    st.image('image/suraimu.jpeg', caption='スライムさん', use_column_width=False)
+    st.image('117813161_p0_master1200.jpg', caption='スライムさん', use_column_width=False)
 
 
 # multi select
@@ -21,7 +21,7 @@ st.write('好きな色:', options)
 
 
 # slider
-history = st.slider("Python歴は?", 0, 33, 3)
+history = st.slider("Python歴は?", 0, 33, 1)
 st.write("私のPython歴は ", history, "です")
 
 
