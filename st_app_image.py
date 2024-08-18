@@ -6,7 +6,7 @@ from ultralytics import YOLO
 
 def app():
     st.title("物体検出アプリ")
-    model = YOLO('yolov8n.pt')
+    model = YOLO('yolov8x.pt')
     class_names_map = model.names
 
     with st.form("my_form"):

@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO('yolov8n.pt')
+model = YOLO('yolov8x.pt')
 print(model.names)  # YOLOが検出できるclass names のリスト
 
 img = cv2.imread('image/apple.jpg')
