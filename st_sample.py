@@ -56,3 +56,5 @@ st.bar_chart(chart_data)
 
 df = pd.DataFrame({'col1': [1,2,3]})
 df  # これでdfの中身がページに表示される
+
+st.image('117813161_p0_master1200.jpg', caption='スライムさん', use_column_width=True)
